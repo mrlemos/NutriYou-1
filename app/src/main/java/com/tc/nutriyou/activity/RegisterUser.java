@@ -54,17 +54,16 @@ public class RegisterUser extends AppCompatActivity
         private void cadastrarCliente()
         {
             String[] data = cliente.getDadosCadastro();
-System.out.println(data);
             firebaseAuth = ConfigFirebase.getFirebaseAuth();
             firebaseAuth.createUserWithEmailAndPassword(data[1], data[2])
                     .addOnCompleteListener(RegisterUser.this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()) {
-                            Toast.makeText(RegisterUser.this, "Usuario cadastrado com sucesso", 5);
+                            Toast.makeText(RegisterUser.this, "Usuario cadastrado com sucesso", Toast.LENGTH_SHORT);
                             }
                         else{
-                            Toast.makeText(RegisterUser.this, "Erro ao tentar cadastrar usuario", 5);
+                            Toast.makeText(RegisterUser.this, "Erro ao tentar cadastrar usuario", Toast.LENGTH_SHORT);
                         }
                     }
                 });
