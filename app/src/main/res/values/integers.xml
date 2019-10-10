@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_length_pass">15</integer>
+    <integer name="max_length_email">60</integer>
+    <integer name="max_length_nome">60</integer>
+</resources>

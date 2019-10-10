@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "590117031808",
+    "firebase_url": "https://tcnutriyou.firebaseio.com",
+    "project_id": "tcnutriyou",
+    "storage_bucket": "tcnutriyou.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590117031808:android:2044bf8af7cf22e2553b65",
+        "android_client_info": {
+          "package_name": "com.tc.nutriyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590117031808-bughr4s9aetkq48co4f06i75vluktjqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tc.nutriyou",
+            "certificate_hash": "b3c6e528796cc9dd6e2dbc532d62c403d5d993e9"
+          }
+        },
+        {
+          "client_id": "590117031808-3envp5a9ofjaosb0hm7nrlnmqesr1jim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6mbrPZ_ZPuIL96lhRg9ZCzLqGgIUSCZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590117031808-3envp5a9ofjaosb0hm7nrlnmqesr1jim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
