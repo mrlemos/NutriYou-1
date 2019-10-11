@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_eu"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="Eu"/>
+    <item
+        android:id="@+id/nav_planos"
+        android:icon="@drawable/ic_view_quilt_black_24dp"
+        android:title="Planos"/>
+    <item
+        android:id="@+id/nav_cardapios"
+        android:icon="@drawable/ic_restaurant_menu_black_24dp"
+        android:title="Cardapios"/>
+    <item
+        android:id="@+id/nav_pedidos"
+        android:icon="@drawable/ic_list_black_24dp"
+        android:title="Pedidos"/>
+
+</menu>
