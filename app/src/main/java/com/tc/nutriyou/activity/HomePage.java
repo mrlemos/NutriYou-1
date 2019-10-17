@@ -9,7 +9,7 @@ import com.tc.nutriyou.R;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-
+//testando
 public class HomePage extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
